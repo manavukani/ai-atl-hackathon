@@ -31,7 +31,6 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
-const cors = require("cors");
 
 // Import routes
 const authRoutes = require("./routes/authRoutes");
@@ -39,17 +38,16 @@ const healthDataRoutes = require("./routes/healthDataRoutes");
 const genaiRoute = require("./routes/genaiRoutes"); // Import the new genai route
 const myconsultation = require("./routes/saveConsultation.js");
 
-
-
 const app = express();
-app.use(cors());
 app.use(express.json());
 
+const cors = require('cors');
+
 const corsOptions = {
-  origin: "http://localhost:3000", // Replace with your frontend's URL
-  credentials: true,
-  // Other options
+  origin: ['https://developers.nlx.ai', 'http://localhost:5173'], // Add other origins as needed
+  credentials: true
 };
+
 app.use(cors(corsOptions));
 
 // MongoDB connection

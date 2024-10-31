@@ -49,6 +49,7 @@ function NewUserPage() {
     e.preventDefault();
     try {
       const token = localStorage.getItem("token");
+      console.log(token)
       await axios.post("http://localhost:5001/api/health-data", formData, {
         headers: {
           "Content-Type": "application/json",

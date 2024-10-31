@@ -20,13 +20,18 @@ const mongoose = require('mongoose');
 //     labReports: [labReportSchema],
 // });
 
-
+// const QuestionAnswerSchema = new mongoose.Schema({
+//     question: { type: String, required: true },
+//     answer: { type: String, required: true },
+//   });
 // new data colletion from patient
 
 const healthDataSchema = new mongoose.Schema({
     userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
     fullName: { type: String, required: true },
     dateOfBirth: { type: Date, required: true },
+    // consultationQA: [QuestionAnswerSchema],
+    // consultationQA: { type: [String],default:[]}, // Array of question-answer pairs
     gender: { type: String, enum: ['Male', 'Female', 'Other'], required: true },
     maritalStatus: { type: String, enum: ['Single', 'Married', 'Divorced', 'Widowed', 'Other',null], required: true },
     address: { type: String, required: true },

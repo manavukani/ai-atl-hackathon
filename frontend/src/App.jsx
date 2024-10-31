@@ -15,6 +15,7 @@ function App() {
         <Route path="/auth" element={<Auth />} />
         <Route path="/new-user" element={<NewUserPage />} />
         <Route path="/home-page" element={<HomePage />} />
+        {/* <Route path="/telemedicine" element={<Telemedicine />} /> */}
         <Route path="/doctor" element={<DoctorPage />} />
         <Route path='/consult-doc' element={<ConsultationPage/>}/>
         <Route path='/telemedicine' element={<Telemedicine/>}/>

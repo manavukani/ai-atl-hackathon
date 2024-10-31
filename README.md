@@ -15,3 +15,7 @@ The FirstHand also offers a platform to ease the Doctor's workload by asking the
 Development of the AI-telemedicine: The development of the AI telemedicine is done using 2 main components, Google's Gemini and NLX. The development began with the fine-tuning of a Gemini-1.5-flash on a red-teamed dataset consisting of more than 20000+ samples. The NLX on the other hand was used to facilitate the development of the conversational chat interface.
 
 Development of the Early-diagnostics systems and querying system: The early diagnostics systems was developed using the Claude-3.5-Sonnet. The developed system uses the data captured in the MongoDB and the symptoms to answer the questions about the patients on the Doctor's portal.
+
+## Built With
+Utsav Mehta
+Ashwini Ramanuj

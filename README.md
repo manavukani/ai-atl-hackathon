@@ -1,4 +1,4 @@
-## Indroduction
+## First Help
 The idea of FirstHelp blooms from the lack of availability of the the appropriate healthcare advices in second and third world countries. Even in the first world countries like the united states, the hassle of getting an appointment is evident. In such a scenario, we propose the use of FirstHand, an AI based product that facilitates the telemedicine and early stage diagnostics and information gathering in order to alleviate the workload of the doctors and thus helping them giving their valuable times. It is neither an AI to replace a doctor, nor it can. Its just here to assist them during the whole lifecycle of patient treatment.
 
 ## What it does
